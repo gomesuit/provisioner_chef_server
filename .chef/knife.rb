@@ -1,0 +1,9 @@
+log_level                :info
+log_location             STDOUT
+node_name                'admin'
+client_key               '/home/vagrant/provisioner_chef_server/.chef/admin.pem'
+validation_client_name   'chef-validator'
+validation_key           '/home/vagrant/provisioner_chef_server/chef/chef-validator.pem'
+chef_server_url          'https://ansible/organizations/chef/'
+syntax_check_cache_path  '/home/vagrant/provisioner_chef_server/.chef/syntax_check_cache'
+cookbook_path            '/home/vagrant/provisioner_chef_server/cookbooks'
